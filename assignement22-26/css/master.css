@@ -1,0 +1,40 @@
+/* Comment */
+
+div {
+  border: 2px solid green;
+  padding: 40px;
+
+}
+
+p {
+  border: inherit;
+  padding: inherit;
+  background-color: #eee;
+  text-align: center;
+
+}
+
+html {
+  font-size: 20px;
+}
+
+.one {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.two {
+  font-family: 'Cairo';
+  font-weight: 700;
+  font-size: 2rem ;
+}
+
+.three {
+  font-family: 'Jomhuria';
+  font-weight: 400 ;
+  font-size: 1.5rem;
+}
+
+

@@ -1,0 +1,42 @@
+/* Comment */
+
+.text-title {
+  text-shadow: 0.5px 0.5px 0px #ff0000, 1px 1px 0px #0000ff,
+    1.5px 1.5px 0px #c300ff;
+}
+
+.one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+}
+
+.assign {
+  width: 400px;
+  padding: 20px;
+  background-color: #eee;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+a {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  display: block;
+  padding: 20px;
+  border-bottom: 10px solid rgb(0, 73, 0);
+  background-color: green;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+}

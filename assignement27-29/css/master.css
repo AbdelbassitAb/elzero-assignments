@@ -1,0 +1,125 @@
+/* Comment */
+body{
+  margin: 0;
+  padding: 0;
+}
+div {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  /* padding: 30px; */
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  /* border-left: 2px solid blue;
+  border-right: 2px solid blue; */
+  position: relative;
+}
+
+span {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+
+.top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.top-right {
+  top: -20px;
+  right: -20px;
+}
+
+
+.bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+
+.top-left , .bottom-left {
+  border-right: 2px solid red;
+}
+
+
+.top-right , .bottom-right {
+  border-left: 2px solid red;
+}
+
+
+li {
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px 0px;
+  list-style-type: none;
+  
+}
+
+.first li {
+  list-style-type:decimal;
+}
+
+.second li {
+  list-style-type:upper-roman;
+}
+
+.third li {
+  list-style-type: disc;
+}
+table {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid green;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+thead td {
+  background-color: #404040;
+  color: white;
+  padding: 20px 40px;
+}
+
+tbody td {
+  background-color: #EEEEEE;
+ padding: 10px ;
+ text-align: center;
+}
+
+img {
+  width: 70px;
+  
+
+  box-shadow: 0 0 0 4px white,0 0 0 5px #9d9696;
+}
+
+td .view {
+  background-color: #03A9F4;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+  position:inherit;
+
+}
+
+td .delete {
+  background-color: #E91E63;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 5px;
+  position:inherit;
+}
+

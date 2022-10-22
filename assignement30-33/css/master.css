@@ -1,0 +1,80 @@
+/* Comment */
+
+div {
+
+  text-align: center;
+  font-size: 40px;
+}
+.parent  {
+  width: 1000px;
+  background-color: rgb(118, 118, 118);
+}
+
+.parent .full-width{
+  float: left;
+  width: calc(100% - 30px);
+  margin: 7.5px;
+  background-color: #eee;
+}
+
+.parent .third-width {
+  float: left;
+  width: calc((100% - 60px) / 3);
+  margin: 7.5px;
+  background-color: #eee;
+
+}
+
+.parent .half-width {
+  float: left;
+  background-color: #eee;
+  width: calc((100% - 45px) / 2);
+  margin: 7.5px;
+
+}
+
+
+.parent .quarter-width {
+  float: left;
+  background-color: #eee;
+    width: calc((100% - 75px) / 4);
+  margin: 7.5px;
+
+}
+
+
+
+.normal {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: rgb(179 179 179); /* Get The Background From Image */
+  color: black;
+}
+
+.one{
+background-color: rgb(179 179 179 / 0.1) ;
+margin: 20px auto;
+width: 300px;
+font-weight: bold;
+font-size: 1rem;
+padding: 20px;
+color: black;
+}
+
+.two {
+  background-color: rgb(179 179 179 / 0.1) ;
+margin: 20px auto;
+width: 300px;
+font-weight: bold;
+font-size: 1rem;
+padding: 20px;
+color: black;
+  opacity: 0.1;
+}
+
+.clear {
+  clear: both;
+}
