@@ -1,0 +1,68 @@
+/* .parent {
+  background-color: #eee;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  height: 250px;
+  margin-top: 70px;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.parent::before {
+  content: "Will go down in half second";
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: -160px;
+  width: 320px;
+  left: 50%;
+  background-color: rgb(130, 130, 130);
+  position: absolute;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.parent:hover {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
+}
+
+.parent:hover::before {
+  margin-top: 80px;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+div {
+  font-size: 20px !important;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #eee !important;
+  color: black !important;
+  text-align: center !important;
+  border-width: 0 !important;
+} */
+
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+
+div {
+  border: 2px solid var(--mainColor, black);
+  color: var(--mainColor, red);
+  padding: var(--mainPadding, 10px);
+  margin: 10px auto;
+  width: 400px;
+}
